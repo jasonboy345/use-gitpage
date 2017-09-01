@@ -1,57 +1,29 @@
-## 点击切换主题
+# 发布docsify-bolg大纲
+
+## 本地搭建docsify
+* 什么是docsify
+* 准备 node.js
+* 安装命令等
+* 运行看效果
+
+## git和github的使用
+* git下载
+* github注册
+* github多人协作
+* gitpage,将本地docsify项目分部到gitpage上
+
+## teambition
+
+## one more thing
+> 写以上内容的目的
+* 还记得我之前说的 学习态度\状态(入门) 学习方法(初级) 解决问题的能力(高级)
+* 文档形成的过程 docsify git github gitpage 就是为了解决打造一个知识体系自己整理的过程 
+* 这个文档之所以形成也是我面对学员的问题, 找方法解决学员问题的过程 
+* web系统的基础知识 大家要熟练掌握 下周开始提速 
 
 
-<div class="demo-theme-preview">
-  <a data-theme="vue">vue默认</a>
-  <a data-theme="dark">dark黑色</a>
-  <a data-theme="pure">pure纯净</a>
-</div>
 
 
-<style>
-  .demo-theme-preview a {
-    padding-right: 10px;
-  }
-
-  .demo-theme-preview a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-</style>
-
-<script>
-  var preview = Docsify.dom.find('.demo-theme-preview');
-  var themes = Docsify.dom.findAll('[rel="stylesheet"]');
-
-  preview.onclick = function (e) {
-    var title = e.target.getAttribute('data-theme')
-
-    themes.forEach(function (theme) {
-      theme.disabled = theme.title !== title
-    });
-  };
-</script>
-
-
-## Django
-
-> 一个基于python的web框架
-
-## 本文档内容
-* 博客部署的曲折bug
-* django入门 代码 图示说明 练习
-* git使用
-* django搭建博客
-* 周老师讲解django知识点总结
-
-## django手册
-> [英文版](https://docs.djangoproject.com/en/1.11/)
-
-> [中文版](http://python.usyiyi.cn/translate/Django111_LTS/index.html)
-
-## 赞助
-
-![微信支付](_media/wechat.png)
 
 
 
