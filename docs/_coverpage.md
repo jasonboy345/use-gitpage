@@ -2,8 +2,9 @@
 
 # git <small>1.11.4</small>
 
-> Django makes it easier to build better Web apps more quickly and with less code..
+> Git is a free and open source distributed version control system 
 
 
-[GETIT](https://www.djangoproject.com/)
+
+[GETIT](https://git-scm.com/)
 
